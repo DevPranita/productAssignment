@@ -22,6 +22,8 @@ Route::get('', [ProductController::class, 'index']);
 Route::post('', [ProductController::class, 'index']);
 Route::get('/', [ProductController::class, 'index']);
 Route::post('/', [ProductController::class, 'index']);
+Route::get('product', [ProductController::class, 'index']);
+Route::post('product', [ProductController::class, 'index']);
 
 Route::get('product/add', [ProductController::class, 'add']);
 Route::post('product/add', [ProductController::class, 'add']);
